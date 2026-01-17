@@ -1,0 +1,290 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+  log      = ["query", "info", "warn", "error"]
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model User {
+  id                String         @id @default(uuid())
+  email             String         @unique
+  password          String?
+  name              String?
+  image             String?
+  role              UserRole       @default(PARENT)
+  status            UserStatus     @default(ACTIVE)
+  emailVerified     DateTime?
+  verificationToken String?        @unique
+  resetToken        String?        @unique
+  resetTokenExpiry  DateTime?
+  createdAt         DateTime       @default(now())
+  updatedAt         DateTime       @updatedAt
+  children          Child[]
+  comments          Comment[]
+  meals             Meal[]
+  notifications     Notification[]
+  posts             Post[]
+  recipes           Recipe[]
+
+  @@index([email])
+  @@index([role])
+  @@map("users")
+}
+
+model Child {
+  id            String         @id @default(uuid())
+  name          String
+  dateOfBirth   DateTime
+  gender        Gender
+  avatar        String?
+  parentId      String
+  createdAt     DateTime       @default(now())
+  updatedAt     DateTime       @updatedAt
+  parent        User           @relation(fields: [parentId], references: [id], onDelete: Cascade)
+  growthRecords GrowthRecord[]
+  mealPlans     MealPlan[]
+  vaccinations  Vaccination[]
+
+  @@index([parentId])
+  @@map("children")
+}
+
+model GrowthRecord {
+  id                String   @id @default(uuid())
+  childId           String
+  height            Float
+  weight            Float
+  headCircumference Float?
+  notes             String?
+  measuredAt        DateTime @default(now())
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+  child             Child    @relation(fields: [childId], references: [id], onDelete: Cascade)
+
+  @@index([childId])
+  @@index([measuredAt])
+  @@map("growth_records")
+}
+
+model Vaccination {
+  id            String    @id @default(uuid())
+  childId       String
+  vaccineName   String
+  description   String?
+  scheduledDate DateTime
+  completedDate DateTime?
+  notes         String?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  child         Child     @relation(fields: [childId], references: [id], onDelete: Cascade)
+
+  @@index([childId])
+  @@index([scheduledDate])
+  @@map("vaccinations")
+}
+
+model Recipe {
+  id              String          @id @default(uuid())
+  title           String
+  description     String?
+  image           String?
+  ingredients     String
+  instructions    String
+  prepTime        Int
+  cookTime        Int
+  servings        Int
+  difficulty      DifficultyLevel @default(MEDIUM)
+  calories        Float?
+  protein         Float?
+  carbs           Float?
+  fat             Float?
+  fiber           Float?
+  minAge          Int?
+  maxAge          Int?
+  status          RecipeStatus    @default(PENDING)
+  rejectionReason String?
+  authorId        String
+  tags            String?
+  createdAt       DateTime        @default(now())
+  updatedAt       DateTime        @updatedAt
+  publishedAt     DateTime?
+  meals           Meal[]
+  author          User            @relation(fields: [authorId], references: [id], onDelete: Cascade)
+
+  @@index([authorId])
+  @@index([status])
+  @@index([publishedAt])
+  @@map("recipes")
+}
+
+model MealPlan {
+  id          String   @id @default(uuid())
+  childId     String
+  name        String
+  description String?
+  startDate   DateTime
+  endDate     DateTime
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  child       Child    @relation(fields: [childId], references: [id], onDelete: Cascade)
+  meals       Meal[]
+
+  @@index([childId])
+  @@index([startDate])
+  @@map("meal_plans")
+}
+
+model Meal {
+  id           String    @id @default(uuid())
+  mealPlanId   String?
+  recipeId     String?
+  userId       String
+  mealType     MealType
+  scheduledFor DateTime
+  completed    Boolean   @default(false)
+  notes        String?
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+  mealPlan     MealPlan? @relation(fields: [mealPlanId], references: [id], onDelete: Cascade)
+  recipe       Recipe?   @relation(fields: [recipeId], references: [id])
+  user         User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([mealPlanId])
+  @@index([userId])
+  @@index([scheduledFor])
+  @@map("meals")
+}
+
+model Post {
+  id              String       @id @default(uuid())
+  title           String
+  content         String
+  excerpt         String?
+  coverImage      String?
+  authorId        String
+  category        PostCategory @default(OTHER)
+  tags            String?
+  status          PostStatus   @default(PENDING)
+  rejectionReason String?
+  views           Int          @default(0)
+  likes           Int          @default(0)
+  createdAt       DateTime     @default(now())
+  updatedAt       DateTime     @updatedAt
+  publishedAt     DateTime?
+  comments        Comment[]
+  author          User         @relation(fields: [authorId], references: [id], onDelete: Cascade)
+
+  @@index([authorId])
+  @@index([status])
+  @@index([category])
+  @@index([publishedAt])
+  @@map("posts")
+}
+
+model Comment {
+  id        String    @id @default(uuid())
+  content   String
+  authorId  String
+  postId    String
+  parentId  String?
+  likes     Int       @default(0)
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  author    User      @relation(fields: [authorId], references: [id], onDelete: Cascade)
+  parent    Comment?  @relation("CommentReplies", fields: [parentId], references: [id], onDelete: Cascade)
+  replies   Comment[] @relation("CommentReplies")
+  post      Post      @relation(fields: [postId], references: [id], onDelete: Cascade)
+
+  @@index([authorId])
+  @@index([postId])
+  @@index([parentId])
+  @@map("comments")
+}
+
+model Notification {
+  id        String           @id @default(uuid())
+  userId    String
+  type      NotificationType
+  title     String
+  message   String
+  link      String?
+  read      Boolean          @default(false)
+  createdAt DateTime         @default(now())
+  user      User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([read])
+  @@index([createdAt])
+  @@map("notifications")
+}
+
+enum UserRole {
+  PARENT
+  EXPERT
+  ADMIN
+}
+
+enum UserStatus {
+  ACTIVE
+  INACTIVE
+  SUSPENDED
+}
+
+enum Gender {
+  MALE
+  FEMALE
+  OTHER
+}
+
+enum MealType {
+  BREAKFAST
+  LUNCH
+  DINNER
+  SNACK
+}
+
+enum RecipeStatus {
+  DRAFT
+  PENDING
+  APPROVED
+  REJECTED
+}
+
+enum DifficultyLevel {
+  EASY
+  MEDIUM
+  HARD
+}
+
+enum PostStatus {
+  DRAFT
+  PENDING
+  APPROVED
+  REJECTED
+}
+
+enum PostCategory {
+  NUTRITION
+  HEALTH
+  DEVELOPMENT
+  PARENTING
+  RECIPE
+  QUESTION
+  EXPERIENCE
+  OTHER
+}
+
+enum NotificationType {
+  VACCINATION_REMINDER
+  MEAL_REMINDER
+  GROWTH_TRACKING
+  POST_APPROVED
+  POST_REJECTED
+  RECIPE_APPROVED
+  RECIPE_REJECTED
+  COMMENT_REPLY
+  SYSTEM
+}
