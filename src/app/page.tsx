@@ -79,12 +79,12 @@ export default function SmartHealthHome() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-gradient-to-r from-green-500 to-blue-500 rounded-xl flex items-center justify-center">
-                <Baby className="w-6 h-6 text-white" />
+              <div className="w-10 h-10 rounded-xl flex items-center justify-center">
+                <img src="/logo.svg" alt="Smart Health Logo" className="w-15 h-15" />
               </div>
               <div>
                 <h1 className="text-xl font-bold text-gray-900">Smart Health</h1>
-                <p className="text-xs text-gray-500">Dinh đường khoa học – Con khoe, mẹ vui</p>
+                <p className="text-xs text-gray-500">Dinh dưỡng khoa học – Con khỏe, mẹ vui</p>
               </div>
             </div>
             <div className="flex items-center space-x-4">
@@ -116,7 +116,7 @@ export default function SmartHealthHome() {
             Chào mừng mẹ quay trở lại! 👋
           </h2>
           <p className="text-gray-600">
-            Hôm nay bé đã sẵn sàng cho một ngày phát triển khỏe mạnh yet?
+            Hôm nay bé đã sẵn sàng cho một ngày phát triển khỏe mạnh chưa?
           </p>
         </div>
 
