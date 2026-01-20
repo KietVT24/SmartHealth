@@ -287,3 +287,15 @@ enum NotificationType {
   COMMENT_REPLY
   SYSTEM
 }
+
+model Food {
+  id             String   @id @default(uuid())
+  name           String
+  imageUrl       String?
+  notes          String?
+  nutritionData  Json?    // Lưu bảng dinh dưỡng dưới dạng JSON: { headers: [...], rows: [...] }
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  @@map("foods")
+}

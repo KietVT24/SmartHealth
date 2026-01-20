@@ -1,0 +1,1266 @@
+{
+  "pageTitle": "Viện Dinh Dưỡng - Trang 2",
+  "dishes": [
+    {
+      "name": "Quả bơ vỏ xanh",
+      "imageUrl": "https://viendinhduong.vn/storage/app/uploads/public/2026/01/09/screenshot_262.webp",
+      "nutritionTable": {
+        "headers": [
+          "Thành phần",
+          "Giá trị",
+          "Đơn vị"
+        ],
+        "rows": [
+          [
+            "Năng lượng",
+            138,
+            "Kcal"
+          ],
+          [
+            "Chất đạm",
+            2.6,
+            "g"
+          ],
+          [
+            "Chất béo",
+            12.9,
+            "g"
+          ],
+          [
+            "Glucid",
+            3.2,
+            "g"
+          ],
+          [
+            "Vitamin A",
+            0,
+            "μg"
+          ],
+          [
+            "Beta-caroten",
+            72.6,
+            "μg"
+          ],
+          [
+            "Vitamin C",
+            23.3,
+            "mg"
+          ],
+          [
+            "Canxi",
+            82,
+            "mg"
+          ],
+          [
+            "Sắt",
+            2.2,
+            "mg"
+          ],
+          [
+            "Kẽm",
+            0.5,
+            "mg"
+          ],
+          [
+            "Natri",
+            2.7,
+            "mg"
+          ],
+          [
+            "Cholesterol",
+            0,
+            "mg"
+          ],
+          [
+            "Kali",
+            477,
+            "mg"
+          ],
+          [
+            "Xơ",
+            0.7,
+            "g"
+          ]
+        ]
+      },
+      "notes": "EN: Green-skinned avocado • Nhóm: Các loại trái cây • Tổng năng lượng: 138 Kcal"
+    },
+    {
+      "name": "Ổi",
+      "imageUrl": "https://viendinhduong.vn/storage/app/uploads/public/2025/12/28/screenshot_249.webp",
+      "nutritionTable": {
+        "headers": [
+          "Thành phần",
+          "Giá trị",
+          "Đơn vị"
+        ],
+        "rows": [
+          [
+            "Năng lượng",
+            26,
+            "Kcal"
+          ],
+          [
+            "Chất đạm",
+            0.5,
+            "g"
+          ],
+          [
+            "Chất béo",
+            0,
+            "g"
+          ],
+          [
+            "Glucid",
+            6.2,
+            "g"
+          ],
+          [
+            "Vitamin A",
+            0,
+            "μg"
+          ],
+          [
+            "Beta-caroten",
+            299,
+            "μg"
+          ],
+          [
+            "Vitamin C",
+            49.6,
+            "mg"
+          ],
+          [
+            "Canxi",
+            8,
+            "mg"
+          ],
+          [
+            "Sắt",
+            1,
+            "mg"
+          ],
+          [
+            "Kẽm",
+            1.92,
+            "mg"
+          ],
+          [
+            "Natri",
+            3.2,
+            "mg"
+          ],
+          [
+            "Cholesterol",
+            0,
+            "mg"
+          ],
+          [
+            "Kali",
+            232.8,
+            "mg"
+          ],
+          [
+            "Xơ",
+            4.8,
+            "g"
+          ]
+        ]
+      },
+      "notes": "EN: Guava • Nhóm: Các loại trái cây • Tổng năng lượng: 26 Kcal"
+    },
+    {
+      "name": "Nho ngọt",
+      "imageUrl": "https://viendinhduong.vn/storage/app/uploads/public/2025/12/28/screenshot_248.webp",
+      "nutritionTable": {
+        "headers": [
+          "Thành phần",
+          "Giá trị",
+          "Đơn vị"
+        ],
+        "rows": [
+          [
+            "Năng lượng",
+            54,
+            "Kcal"
+          ],
+          [
+            "Chất đạm",
+            0.3,
+            "g"
+          ],
+          [
+            "Chất béo",
+            0,
+            "g"
+          ],
+          [
+            "Glucid",
+            13.2,
+            "g"
+          ],
+          [
+            "Vitamin A",
+            0,
+            "μg"
+          ],
+          [
+            "Beta-caroten",
+            31,
+            "μg"
+          ],
+          [
+            "Vitamin C",
+            2.4,
+            "mg"
+          ],
+          [
+            "Canxi",
+            14,
+            "mg"
+          ],
+          [
+            "Sắt",
+            0.5,
+            "mg"
+          ],
+          [
+            "Kẽm",
+            0.1,
+            "mg"
+          ],
+          [
+            "Natri",
+            0.8,
+            "mg"
+          ],
+          [
+            "Cholesterol",
+            0,
+            "mg"
+          ],
+          [
+            "Kali",
+            104,
+            "mg"
+          ],
+          [
+            "Xơ",
+            0.5,
+            "g"
+          ]
+        ]
+      },
+      "notes": "EN: Sweet grapes • Nhóm: Các loại trái cây • Tổng năng lượng: 54 Kcal"
+    },
+    {
+      "name": "Nhãn",
+      "imageUrl": "https://viendinhduong.vn/storage/app/uploads/public/2025/12/28/screenshot_247.webp",
+      "nutritionTable": {
+        "headers": [
+          "Thành phần",
+          "Giá trị",
+          "Đơn vị"
+        ],
+        "rows": [
+          [
+            "Năng lượng",
+            38,
+            "Kcal"
+          ],
+          [
+            "Chất đạm",
+            0.7,
+            "g"
+          ],
+          [
+            "Chất béo",
+            0,
+            "g"
+          ],
+          [
+            "Glucid",
+            8.8,
+            "g"
+          ],
+          [
+            "Vitamin A",
+            0,
+            "μg"
+          ],
+          [
+            "Beta-caroten",
+            0,
+            "μg"
+          ],
+          [
+            "Vitamin C",
+            46.3,
+            "mg"
+          ],
+          [
+            "Canxi",
+            17,
+            "mg"
+          ],
+          [
+            "Sắt",
+            0.3,
+            "mg"
+          ],
+          [
+            "Kẽm",
+            0.23,
+            "mg"
+          ],
+          [
+            "Natri",
+            20.7,
+            "mg"
+          ],
+          [
+            "Cholesterol",
+            0,
+            "mg"
+          ],
+          [
+            "Kali",
+            205,
+            "mg"
+          ],
+          [
+            "Xơ",
+            0.8,
+            "g"
+          ]
+        ]
+      },
+      "notes": "EN: Longan • Nhóm: Các loại trái cây • Tổng năng lượng: 38 Kcal"
+    },
+    {
+      "name": "Na",
+      "imageUrl": "https://viendinhduong.vn/storage/app/uploads/public/2025/12/28/screenshot_246.webp",
+      "nutritionTable": {
+        "headers": [
+          "Thành phần",
+          "Giá trị",
+          "Đơn vị"
+        ],
+        "rows": [
+          [
+            "Năng lượng",
+            51,
+            "Kcal"
+          ],
+          [
+            "Chất đạm",
+            1.3,
+            "g"
+          ],
+          [
+            "Chất béo",
+            0,
+            "g"
+          ],
+          [
+            "Glucid",
+            11.6,
+            "g"
+          ],
+          [
+            "Vitamin A",
+            0,
+            "μg"
+          ],
+          [
+            "Beta-caroten",
+            0,
+            "μg"
+          ],
+          [
+            "Vitamin C",
+            28.8,
+            "mg"
+          ],
+          [
+            "Canxi",
+            28,
+            "mg"
+          ],
+          [
+            "Sắt",
+            0.51,
+            "mg"
+          ],
+          [
+            "Kẽm",
+            0.17,
+            "mg"
+          ],
+          [
+            "Natri",
+            17.6,
+            "mg"
+          ],
+          [
+            "Cholesterol",
+            0,
+            "mg"
+          ],
+          [
+            "Kali",
+            208,
+            "mg"
+          ],
+          [
+            "Xơ",
+            0.6,
+            "g"
+          ]
+        ]
+      },
+      "notes": "EN: Custard apple • Nhóm: Các loại trái cây • Tổng năng lượng: 51 Kcal"
+    },
+    {
+      "name": "Mận cơm",
+      "imageUrl": "https://viendinhduong.vn/storage/app/uploads/public/2025/12/28/screenshot_245.webp",
+      "nutritionTable": {
+        "headers": [
+          "Thành phần",
+          "Giá trị",
+          "Đơn vị"
+        ],
+        "rows": [
+          [
+            "Năng lượng",
+            16,
+            "Kcal"
+          ],
+          [
+            "Chất đạm",
+            0.5,
+            "g"
+          ],
+          [
+            "Chất béo",
+            0.2,
+            "g"
+          ],
+          [
+            "Glucid",
+            3.1,
+            "g"
+          ],
+          [
+            "Vitamin A",
+            0,
+            "μg"
+          ],
+          [
+            "Beta-caroten",
+            92,
+            "μg"
+          ],
+          [
+            "Vitamin C",
+            2.4,
+            "mg"
+          ],
+          [
+            "Canxi",
+            22,
+            "mg"
+          ],
+          [
+            "Sắt",
+            0.3,
+            "mg"
+          ],
+          [
+            "Kẽm",
+            0.1,
+            "mg"
+          ],
+          [
+            "Natri",
+            0,
+            "mg"
+          ],
+          [
+            "Cholesterol",
+            0,
+            "mg"
+          ],
+          [
+            "Kali",
+            147,
+            "mg"
+          ],
+          [
+            "Xơ",
+            0.6,
+            "g"
+          ]
+        ]
+      },
+      "notes": "EN: Plum • Nhóm: Các loại trái cây • Tổng năng lượng: 16 Kcal"
+    },
+    {
+      "name": "Mít dai",
+      "imageUrl": "https://viendinhduong.vn/storage/app/uploads/public/2025/12/28/screenshot_244.webp",
+      "nutritionTable": {
+        "headers": [
+          "Thành phần",
+          "Giá trị",
+          "Đơn vị"
+        ],
+        "rows": [
+          [
+            "Năng lượng",
+            69,
+            "Kcal"
+          ],
+          [
+            "Chất đạm",
+            0.9,
+            "g"
+          ],
+          [
+            "Chất béo",
+            0,
+            "g"
+          ],
+          [
+            "Glucid",
+            16.4,
+            "g"
+          ],
+          [
+            "Vitamin A",
+            0,
+            "μg"
+          ],
+          [
+            "Beta-caroten",
+            259.2,
+            "μg"
+          ],
+          [
+            "Vitamin C",
+            7.2,
+            "mg"
+          ],
+          [
+            "Canxi",
+            30,
+            "mg"
+          ],
+          [
+            "Sắt",
+            0.6,
+            "mg"
+          ],
+          [
+            "Kẽm",
+            0.96,
+            "mg"
+          ],
+          [
+            "Natri",
+            4.3,
+            "mg"
+          ],
+          [
+            "Cholesterol",
+            0,
+            "mg"
+          ],
+          [
+            "Kali",
+            529.9,
+            "mg"
+          ],
+          [
+            "Xơ",
+            1.7,
+            "g"
+          ]
+        ]
+      },
+      "notes": "EN: Jackfruit • Nhóm: Các loại trái cây • Tổng năng lượng: 69 Kcal"
+    },
+    {
+      "name": "Măng cụt",
+      "imageUrl": "https://viendinhduong.vn/storage/app/uploads/public/2025/12/28/screenshot_243.webp",
+      "nutritionTable": {
+        "headers": [
+          "Thành phần",
+          "Giá trị",
+          "Đơn vị"
+        ],
+        "rows": [
+          [
+            "Năng lượng",
+            19,
+            "Kcal"
+          ],
+          [
+            "Chất đạm",
+            0.2,
+            "g"
+          ],
+          [
+            "Chất béo",
+            0.1,
+            "g"
+          ],
+          [
+            "Glucid",
+            4.9,
+            "g"
+          ],
+          [
+            "Vitamin A",
+            0,
+            "μg"
+          ],
+          [
+            "Beta-caroten",
+            "",
+            "μg"
+          ],
+          [
+            "Vitamin C",
+            0.9,
+            "g"
+          ],
+          [
+            "Canxi",
+            2,
+            "mg"
+          ],
+          [
+            "Sắt",
+            0,
+            "mg"
+          ],
+          [
+            "Kẽm",
+            0.05,
+            "mg"
+          ],
+          [
+            "Natri",
+            0.3,
+            "mg"
+          ],
+          [
+            "Cholesterol",
+            0,
+            "mg"
+          ],
+          [
+            "Kali",
+            28.2,
+            "mg"
+          ],
+          [
+            "Xơ",
+            0.4,
+            "g"
+          ]
+        ]
+      },
+      "notes": "EN: Mangosteen • Nhóm: Các loại trái cây • Tổng năng lượng: 19 Kcal"
+    },
+    {
+      "name": "Lê",
+      "imageUrl": "https://viendinhduong.vn/storage/app/uploads/public/2025/12/28/screenshot_242.webp",
+      "nutritionTable": {
+        "headers": [
+          "Thành phần",
+          "Giá trị",
+          "Đơn vị"
+        ],
+        "rows": [
+          [
+            "Năng lượng",
+            167,
+            "Kcal"
+          ],
+          [
+            "Chất đạm",
+            2.6,
+            "g"
+          ],
+          [
+            "Chất béo",
+            0.7,
+            "g"
+          ],
+          [
+            "Glucid",
+            37.7,
+            "g"
+          ],
+          [
+            "Vitamin A",
+            0,
+            "μg"
+          ],
+          [
+            "Beta-caroten",
+            113,
+            "μg"
+          ],
+          [
+            "Vitamin C",
+            14.8,
+            "mg"
+          ],
+          [
+            "Canxi",
+            70.3,
+            "mg"
+          ],
+          [
+            "Sắt",
+            8.51,
+            "mg"
+          ],
+          [
+            "Kẽm",
+            0.48,
+            "mg"
+          ],
+          [
+            "Natri",
+            18.5,
+            "mg"
+          ],
+          [
+            "Cholesterol",
+            0,
+            "mg"
+          ],
+          [
+            "Kali",
+            325.5,
+            "mg"
+          ],
+          [
+            "Xơ",
+            2.2,
+            "g"
+          ]
+        ]
+      },
+      "notes": "EN: Pear • Nhóm: Các loại trái cây • Tổng năng lượng: 167 Kcal"
+    },
+    {
+      "name": "Hồng xiêm (sapochê)",
+      "imageUrl": "https://viendinhduong.vn/storage/app/uploads/public/2025/12/28/screenshot_241.webp",
+      "nutritionTable": {
+        "headers": [
+          "Thành phần",
+          "Giá trị",
+          "Đơn vị"
+        ],
+        "rows": [
+          [
+            "Năng lượng",
+            38,
+            "Kcal"
+          ],
+          [
+            "Chất đạm",
+            0.4,
+            "g"
+          ],
+          [
+            "Chất béo",
+            0.6,
+            "g"
+          ],
+          [
+            "Glucid",
+            8,
+            "g"
+          ],
+          [
+            "Vitamin A",
+            0,
+            "μg"
+          ],
+          [
+            "Beta-caroten",
+            "",
+            "μg"
+          ],
+          [
+            "Vitamin C",
+            6.4,
+            "mg"
+          ],
+          [
+            "Canxi",
+            42,
+            "mg"
+          ],
+          [
+            "Sắt",
+            1.8,
+            "mg"
+          ],
+          [
+            "Kẽm",
+            0.08,
+            "mg"
+          ],
+          [
+            "Natri",
+            17.6,
+            "mg"
+          ],
+          [
+            "Cholesterol",
+            0,
+            "mg"
+          ],
+          [
+            "Kali",
+            75.2,
+            "mg"
+          ],
+          [
+            "Xơ",
+            2,
+            "g"
+          ]
+        ]
+      },
+      "notes": "EN: Sapodilla • Nhóm: Các loại trái cây • Tổng năng lượng: 38 Kcal"
+    },
+    {
+      "name": "Gioi (mận)",
+      "imageUrl": "https://viendinhduong.vn/storage/app/uploads/public/2025/12/28/screenshot_240.webp",
+      "nutritionTable": {
+        "headers": [
+          "Thành phần",
+          "Giá trị",
+          "Đơn vị"
+        ],
+        "rows": [
+          [
+            "Năng lượng",
+            38,
+            "Kcal"
+          ],
+          [
+            "Chất đạm",
+            0.9,
+            "g"
+          ],
+          [
+            "Chất béo",
+            0,
+            "g"
+          ],
+          [
+            "Glucid",
+            8.3,
+            "g"
+          ],
+          [
+            "Vitamin A",
+            0,
+            "μg"
+          ],
+          [
+            "Beta-caroten",
+            "",
+            "μg"
+          ],
+          [
+            "Vitamin C",
+            71,
+            "mg"
+          ],
+          [
+            "Canxi",
+            28,
+            "mg"
+          ],
+          [
+            "Sắt",
+            1.21,
+            "mg"
+          ],
+          [
+            "Kẽm",
+            0.17,
+            "mg"
+          ],
+          [
+            "Natri",
+            0,
+            "mg"
+          ],
+          [
+            "Cholesterol",
+            0,
+            "mg"
+          ],
+          [
+            "Kali",
+            191.6,
+            "mg"
+          ],
+          [
+            "Xơ",
+            6.9,
+            "g"
+          ]
+        ]
+      },
+      "notes": "EN: Plum • Nhóm: Các loại trái cây • Tổng năng lượng: 38 Kcal"
+    },
+    {
+      "name": "Đu đủ",
+      "imageUrl": "https://viendinhduong.vn/storage/app/uploads/public/2025/12/28/screenshot_239.webp",
+      "nutritionTable": {
+        "headers": [
+          "Thành phần",
+          "Giá trị",
+          "Đơn vị"
+        ],
+        "rows": [
+          [
+            "Năng lượng",
+            28,
+            "Kcal"
+          ],
+          [
+            "Chất đạm",
+            0.8,
+            "g"
+          ],
+          [
+            "Chất béo",
+            0,
+            "g"
+          ],
+          [
+            "Glucid",
+            6.2,
+            "g"
+          ],
+          [
+            "Vitamin A",
+            0,
+            "μg"
+          ],
+          [
+            "Beta-caroten",
+            221,
+            "μg"
+          ],
+          [
+            "Vitamin C",
+            43.2,
+            "g"
+          ],
+          [
+            "Canxi",
+            32,
+            "mg"
+          ],
+          [
+            "Sắt",
+            2.1,
+            "mg"
+          ],
+          [
+            "Kẽm",
+            0.08,
+            "mg"
+          ],
+          [
+            "Natri",
+            3.2,
+            "mg"
+          ],
+          [
+            "Cholesterol",
+            0,
+            "mg"
+          ],
+          [
+            "Kali",
+            176.8,
+            "mg"
+          ],
+          [
+            "Xơ",
+            0.5,
+            "g"
+          ]
+        ]
+      },
+      "notes": "EN: Papaya • Nhóm: Các loại trái cây • Tổng năng lượng: 28 Kcal"
+    },
+    {
+      "name": "Đào",
+      "imageUrl": "https://viendinhduong.vn/storage/app/uploads/public/2025/12/28/screenshot_238.webp",
+      "nutritionTable": {
+        "headers": [
+          "Thành phần",
+          "Giá trị",
+          "Đơn vị"
+        ],
+        "rows": [
+          [
+            "Năng lượng",
+            68,
+            "Kcal"
+          ],
+          [
+            "Chất đạm",
+            2,
+            "g"
+          ],
+          [
+            "Chất béo",
+            0.4,
+            "g"
+          ],
+          [
+            "Glucid",
+            13.9,
+            "g"
+          ],
+          [
+            "Vitamin A",
+            0,
+            "μg"
+          ],
+          [
+            "Beta-caroten",
+            356.4,
+            "μg"
+          ],
+          [
+            "Vitamin C",
+            22,
+            "mg"
+          ],
+          [
+            "Canxi",
+            44,
+            "mg"
+          ],
+          [
+            "Sắt",
+            1.1,
+            "mg"
+          ],
+          [
+            "Kẽm",
+            0.15,
+            "mg"
+          ],
+          [
+            "Natri",
+            2.2,
+            "mg"
+          ],
+          [
+            "Cholesterol",
+            0,
+            "mg"
+          ],
+          [
+            "Kali",
+            374,
+            "mg"
+          ],
+          [
+            "Xơ",
+            3.3,
+            "g"
+          ]
+        ]
+      },
+      "notes": "EN: Peach • Nhóm: Các loại trái cây • Tổng năng lượng: 68 Kcal"
+    },
+    {
+      "name": "Dứa ta",
+      "imageUrl": "https://viendinhduong.vn/storage/app/uploads/public/2025/12/28/screenshot_237.webp",
+      "nutritionTable": {
+        "headers": [
+          "Thành phần",
+          "Giá trị",
+          "Đơn vị"
+        ],
+        "rows": [
+          [
+            "Năng lượng",
+            23,
+            "Kcal"
+          ],
+          [
+            "Chất đạm",
+            0.6,
+            "g"
+          ],
+          [
+            "Chất béo",
+            0,
+            "g"
+          ],
+          [
+            "Glucid",
+            5.2,
+            "g"
+          ],
+          [
+            "Vitamin A",
+            0,
+            "μg"
+          ],
+          [
+            "Beta-caroten",
+            32,
+            "μg"
+          ],
+          [
+            "Vitamin C",
+            19.2,
+            "mg"
+          ],
+          [
+            "Canxi",
+            12,
+            "mg"
+          ],
+          [
+            "Sắt",
+            0.4,
+            "mg"
+          ],
+          [
+            "Kẽm",
+            0.2,
+            "mg"
+          ],
+          [
+            "Natri",
+            19.2,
+            "mg"
+          ],
+          [
+            "Cholesterol",
+            0,
+            "mg"
+          ],
+          [
+            "Kali",
+            125.6,
+            "mg"
+          ],
+          [
+            "Xơ",
+            0.6,
+            "g"
+          ]
+        ]
+      },
+      "notes": "EN: Pineapple • Nhóm: Các loại trái cây • Tổng năng lượng: 23 Kcal"
+    },
+    {
+      "name": "Dưa vàng",
+      "imageUrl": "https://viendinhduong.vn/storage/app/uploads/public/2025/12/28/screenshot_236.webp",
+      "nutritionTable": {
+        "headers": [
+          "Thành phần",
+          "Giá trị",
+          "Đơn vị"
+        ],
+        "rows": [
+          [
+            "Năng lượng",
+            13,
+            "Kcal"
+          ],
+          [
+            "Chất đạm",
+            0.2,
+            "g"
+          ],
+          [
+            "Chất béo",
+            0,
+            "g"
+          ],
+          [
+            "Glucid",
+            3,
+            "g"
+          ],
+          [
+            "Vitamin A",
+            0,
+            "μg"
+          ],
+          [
+            "Beta-caroten",
+            24,
+            "μg"
+          ],
+          [
+            "Vitamin C",
+            5.6,
+            "mg"
+          ],
+          [
+            "Canxi",
+            22,
+            "mg"
+          ],
+          [
+            "Sắt",
+            0.3,
+            "mg"
+          ],
+          [
+            "Kẽm",
+            "",
+            "mg"
+          ],
+          [
+            "Natri",
+            "",
+            "mg"
+          ],
+          [
+            "Cholesterol",
+            0,
+            "mg"
+          ],
+          [
+            "Kali",
+            "",
+            "mg"
+          ],
+          [
+            "Transfat",
+            "",
+            "mg"
+          ]
+        ]
+      },
+      "notes": "EN: Yellow melon • Nhóm: Các loại trái cây • Tổng năng lượng: 13 Kcal"
+    }
+  ],
+  "notes": "API: getPageFoodData (page=2, pageSize=15, gender=2)"
+}
